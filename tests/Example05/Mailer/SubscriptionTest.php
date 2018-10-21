@@ -1,11 +1,11 @@
 <?php
 
-namespace MyProjectTest\Example04\Mailer;
+namespace MyProjectTest\Example05\Mailer;
 
 use DomainException;
-use MyProject\Example04\Mailer\Sender\InMemoryMailSender;
-use MyProject\Example04\Mailer\SubscribersRepository;
-use MyProject\Example04\Mailer\Subscription;
+use MyProject\Example05\Mailer\Sender\InMemoryMailSender;
+use MyProject\Example05\Mailer\SubscribersRepository;
+use MyProject\Example05\Mailer\Subscription;
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 

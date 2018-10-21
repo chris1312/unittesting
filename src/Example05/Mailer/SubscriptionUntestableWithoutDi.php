@@ -1,6 +1,6 @@
 <?php
 
-namespace MyProject\Example04\Mailer;
+namespace MyProject\Example05\Mailer;
 
 use DomainException;
 use PDO;

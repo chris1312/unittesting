@@ -1,6 +1,6 @@
 <?php
 
-namespace MyProject\Example05\RandomGenerator;
+namespace MyProject\Example04\RandomGenerator;
 
 class RandomNumberGenerator implements GeneratorInterface
 {

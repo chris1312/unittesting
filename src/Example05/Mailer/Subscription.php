@@ -1,9 +1,9 @@
 <?php
 
-namespace MyProject\Example04\Mailer;
+namespace MyProject\Example05\Mailer;
 
 use DomainException;
-use MyProject\Example04\Mailer\Sender\MailSenderInterface;
+use MyProject\Example05\Mailer\Sender\MailSenderInterface;
 
 class Subscription
 {

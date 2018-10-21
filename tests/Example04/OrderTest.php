@@ -1,9 +1,9 @@
 <?php
 
-namespace MyProjectTest\Example05;
+namespace MyProjectTest\Example04;
 
-use MyProject\Example05\Order;
-use MyProject\Example05\RandomGenerator\FakeGenerator;
+use MyProject\Example04\Order;
+use MyProject\Example04\RandomGenerator\FakeGenerator;
 use PHPUnit\Framework\TestCase;
 
 class OrderTest extends TestCase

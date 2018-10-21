@@ -1,6 +1,6 @@
 <?php
 
-namespace MyProject\Example04\Mailer\Sender;
+namespace MyProject\Example05\Mailer\Sender;
 
 class PhpMailSender implements MailSenderInterface
 {

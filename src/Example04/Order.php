@@ -1,22 +1,31 @@
 <?php
 
-namespace MyProject\Example05;
+namespace MyProject\Example04;
 
-class OrderUntestable
+use MyProject\Example04\RandomGenerator\GeneratorInterface;
+
+class Order
 {
     /** @var string[] */
     private $products = [];
     /** @var int */
     private $orderNumber;
+    /** @var GeneratorInterface */
+    private $orderNumberGenerator;
+
+    public function __construct(GeneratorInterface $orderNumberGenerator)
+    {
+        $this->orderNumberGenerator = $orderNumberGenerator;
+    }
 
     public function addProduction(string $productName): void
     {
         $this->products[] = $productName;
     }
 
-    public function finalize()
+    public function finalize(): void
     {
-        $this->orderNumber = StaticRandomNumberGenerator::next();
+        $this->orderNumber = $this->orderNumberGenerator->next();
     }
 
     public function toString(): string

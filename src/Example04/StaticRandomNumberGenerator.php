@@ -1,6 +1,6 @@
 <?php
 
-namespace MyProject\Example05;
+namespace MyProject\Example04;
 
 class StaticRandomNumberGenerator
 {

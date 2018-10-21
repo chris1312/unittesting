@@ -1,8 +1,8 @@
 <?php
 
-namespace MyProjectTest\Example05;
+namespace MyProjectTest\Example04;
 
-use MyProject\Example05\OrderUntestable;
+use MyProject\Example04\OrderUntestable;
 use PHPUnit\Framework\TestCase;
 
 class OrderUntestableTest extends TestCase
